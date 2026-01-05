@@ -1,6 +1,6 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: BatoceraV42Bios 2025
+# Repositorio: BatoceraV43Bios 2026
 # Por: Luciano's tech ("https://sites.google.com/view/lucianostech/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
@@ -14,7 +14,7 @@ echo
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 echo
-RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV42Bios/main/bios/
+RUTA=https://raw.githubusercontent.com/PIBSAS/BatoceraV43Bios/main/bios/
 RUTA_ARCH="https://archive.org/download/bios_batocera/BatoceraV39Bios/bios/"
 RUTA_B="https://archive.org/download/bios_batocera/"
 echo
@@ -357,6 +357,7 @@ rm ../bios/Oric/basic11.rom
 rm ../bios/Oric/colour.rom
 rm ../bios/psvita/PSP2UPDAT.PUP
 rm ../bios/psvita/PSVUPDAT.PUP
+rm ../bios/mame/casloopy.zip
 echo
 echo "Sistema listo para su correcta instalacion"
 echo "System ready for right installation"
@@ -697,6 +698,11 @@ wget -c "${RUTA}np2kai/SOUND.ROM" -P ../bios/np2kai/
 wget -c "${RUTA}np2kai/ITF.ROM" -P ../bios/np2kai/
 wget -c "${RUTA}np2kai/font.bmp" -P ../bios/np2kai/
 echo
+echo "###### CASIO LOOPY ######"
+# https://github.com/madsonweb/zRupiEX
+echo
+wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+echo
 echo "###### FAIRCHILD CHANNELF ######"
 # https://github.com/libretro/FreeChaF/blob/master/README.md#bios
 echo
@@ -992,6 +998,7 @@ wget -c "${RUTA}vis.zip" -P ../bios/
 echo
 echo "###### NINTENDO GAMECUBE ######"
 echo
+echo "64DD_IPL.bin already downloaded"
 wget -c "${RUTA}GC/EUR/IPL.bin" -P ../bios/GC/EUR/
 wget -c "${RUTA}GC/JAP/IPL.bin" -P ../bios/GC/JAP/
 wget -c "${RUTA}GC/USA/IPL.bin" -P ../bios/GC/USA/
