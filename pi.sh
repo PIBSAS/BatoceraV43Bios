@@ -350,6 +350,7 @@ rm ../bios/openmsx/fs-a1gt_kanjifont.rom
 rm ../bios/openmsx/ide250.zip
 rm ../bios/supracan.zip
 rm ../bios/vis.zip
+rm ../bios/casloopy.zip
 rm ../bios/GC/EUR/IPL.bin
 rm ../bios/GC/JAP/IPL.bin
 rm ../bios/GC/USA/IPL.bin
@@ -711,7 +712,8 @@ echo
 echo "###### CASIO LOOPY ######"
 # https://github.com/madsonweb/zRupiEX
 echo
-wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+#wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+wget -c "${RUTA}casioloopy.zip" -P ../bios/
 echo
 echo "###### FAIRCHILD CHANNELF ######"
 # https://github.com/libretro/FreeChaF/blob/master/README.md#bios
