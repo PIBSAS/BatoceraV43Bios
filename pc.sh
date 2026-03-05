@@ -684,10 +684,10 @@ echo
 echo "###### NEC PC-6000 ######"
 # https://wiki.batocera.org/systems:pc60
 echo
-wget -c "${RUTA}/pc6001.zip" -P ../bios/
-wget -c "${RUTA}/pc6001a.zip" -P ../bios/
-wget -c "${RUTA}/pc6001mk2.zip" -P ../bios/
-wget -c "${RUTA}/pc6001mk2sr.zip" -P ../bios/
+wget -c "${RUTA}pc6001.zip" -P ../bios/
+wget -c "${RUTA}pc6001a.zip" -P ../bios/
+wget -c "${RUTA}pc6001mk2.zip" -P ../bios/
+wget -c "${RUTA}pc6001mk2sr.zip" -P ../bios/
 echo
 echo "###### NEC PC-8800 ######"
 # https://github.com/RetroPie/RetroPie-Setup/wiki/PC-8800
