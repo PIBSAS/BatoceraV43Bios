@@ -347,6 +347,10 @@ rm ../bios/openmsx/fs-a1gt_kanjifont.rom
 rm ../bios/openmsx/ide250.zip
 rm ../bios/supracan.zip
 rm ../bios/vis.zip
+rm ../bios/pc6001.zip
+rm ../bios/pc6001a.zip
+rm ../bios/pc6001mk2.zip
+rm ../bios/pc6001mk2sr.zip
 rm ../bios/GC/EUR/IPL.bin
 rm ../bios/GC/JAP/IPL.bin
 rm ../bios/GC/USA/IPL.bin
@@ -676,6 +680,14 @@ wget -c "${RUTA}amiga/kick40060.CD32" -P ../bios/amiga/
 wget -c "${RUTA}amiga/kick40060.CD32.ext" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-310-cd32.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-ext-310-cd32.rom" -P ../bios/amiga/
+echo
+echo "###### NEC PC-6000 ######"
+# https://wiki.batocera.org/systems:pc60
+echo
+wget -c "${RUTA}/pc6001.zip" -P ../bios/
+wget -c "${RUTA}/pc6001a.zip" -P ../bios/
+wget -c "${RUTA}/pc6001mk2.zip" -P ../bios/
+wget -c "${RUTA}/pc6001mk2sr.zip" -P ../bios/
 echo
 echo "###### NEC PC-8800 ######"
 # https://github.com/RetroPie/RetroPie-Setup/wiki/PC-8800
