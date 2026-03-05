@@ -324,6 +324,10 @@ rm ../bios/mie.zip
 #rm ../bios/psvita/PSP2UPDAT.PUP
 #rm ../bios/psvita/PSVUPDAT.PUP
 rm ../bios/vectrex.zip
+rm ../bios/pc6001.zip
+rm ../bios/pc6001a.zip
+rm ../bios/pc6001mk2.zip
+rm ../bios/pc6001mk2sr.zip
 rm ../bios/scummvm/extra/MT32_PCM.ROM
 rm ../bios/scummvm/extra/MT32_CONTROL.ROM
 rm ../bios/openmsx/nms8250_disk.rom
@@ -674,6 +678,14 @@ wget -c "${RUTA}amiga/kick40060.CD32" -P ../bios/amiga/
 wget -c "${RUTA}amiga/kick40060.CD32.ext" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-os-310-cd32.rom" -P ../bios/amiga/
 wget -c "${RUTA}amiga/amiga-ext-310-cd32.rom" -P ../bios/amiga/
+echo
+echo "###### NEC PC-6000 ######"
+# https://wiki.batocera.org/systems:pc60
+echo
+wget -c "${RUTA}pc6001.zip" -P ../bios/
+wget -c "${RUTA}pc6001a.zip" -P ../bios/
+wget -c "${RUTA}pc6001mk2.zip" -P ../bios/
+wget -c "${RUTA}pc6001mk2sr.zip" -P ../bios/
 echo
 echo "###### NEC PC-8800 ######"
 # https://github.com/RetroPie/RetroPie-Setup/wiki/PC-8800
