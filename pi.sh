@@ -359,7 +359,7 @@ rm ../bios/GC/USA/IPL.bin
 #rm ../bios/cerbios.bin
 rm ../bios/Oric/basic11.rom
 rm ../bios/Oric/colour.rom
-rm ../bios/mame/casioloopy.zip
+rm ../bios/mame/casloopy.zip
 echo
 echo "Sistema listo para su correcta instalacion"
 echo "System ready for right installation"
@@ -712,7 +712,7 @@ echo
 echo "###### CASIO LOOPY ######"
 # https://github.com/madsonweb/zRupiEX
 echo
-#wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+#wget -c "${RUTA}mame/casloopy.zip" -P ../bios/mame/
 wget -c "${RUTA}casloopy.zip" -P ../bios/
 echo
 echo "###### FAIRCHILD CHANNELF ######"
