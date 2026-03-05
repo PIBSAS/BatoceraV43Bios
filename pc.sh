@@ -715,7 +715,7 @@ echo "###### CASIO LOOPY ######"
 # https://github.com/madsonweb/zRupiEX
 echo
 #wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
-wget -c "${RUTA}casioloopy.zip" -P ../bios/
+wget -c "${RUTA}casloopy.zip" -P ../bios/
 echo
 echo "###### FAIRCHILD CHANNELF ######"
 # https://github.com/libretro/FreeChaF/blob/master/README.md#bios
