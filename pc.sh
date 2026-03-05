@@ -351,6 +351,7 @@ rm ../bios/pc6001.zip
 rm ../bios/pc6001a.zip
 rm ../bios/pc6001mk2.zip
 rm ../bios/pc6001mk2sr.zip
+rm ../bios/casloopy.zip
 rm ../bios/GC/EUR/IPL.bin
 rm ../bios/GC/JAP/IPL.bin
 rm ../bios/GC/USA/IPL.bin
@@ -713,7 +714,8 @@ echo
 echo "###### CASIO LOOPY ######"
 # https://github.com/madsonweb/zRupiEX
 echo
-wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+#wget -c "${RUTA}mame/casioloopy.zip" -P ../bios/mame/
+wget -c "${RUTA}casioloopy.zip" -P ../bios/
 echo
 echo "###### FAIRCHILD CHANNELF ######"
 # https://github.com/libretro/FreeChaF/blob/master/README.md#bios
